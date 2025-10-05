@@ -1,0 +1,172 @@
+.search-form {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.search-form .input {
+  flex: 1;
+}
+
+.section-description {
+  color: #6b7280;
+  margin-bottom: 1.5rem;
+}
+
+.resumes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.resume-card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.resume-card {
+  padding: 1.5rem;
+  border: 2px solid #e5e7eb;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+.resume-card:hover {
+  border-color: #667eea;
+  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.2);
+  transform: translateY(-2px);
+}
+
+.resume-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.candidate-info h3 {
+  font-size: 1.25rem;
+  margin: 0 0 0.25rem 0;
+  color: #1f2937;
+}
+
+.candidate-name-link {
+  color: #667eea;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.candidate-name-link:hover {
+  text-decoration: underline;
+}
+
+.candidate-email {
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin: 0;
+}
+
+.resume-filename {
+  font-size: 0.875rem;
+  color: #9ca3af;
+  margin-bottom: 1rem;
+}
+
+.resume-summary {
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.resume-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.resume-date {
+  font-size: 0.75rem;
+  color: #9ca3af;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e5e7eb;
+}
+
+.ask-results {
+  margin-top: 2rem;
+}
+
+.ask-results h3 {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+  color: #1f2937;
+}
+
+.ask-result-card {
+  background: #f9fafb;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.ask-result-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.ask-result-header h4 {
+  font-size: 1.125rem;
+  margin: 0;
+}
+
+.ask-result-header a {
+  color: #667eea;
+  text-decoration: none;
+}
+
+.ask-result-header a:hover {
+  text-decoration: underline;
+}
+
+.similarity-score {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.snippet {
+  color: #374151;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background: white;
+  border-left: 3px solid #667eea;
+  border-radius: 4px;
+}
+
+.relevant-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.relevant-skills strong {
+  margin-right: 0.5rem;
+  color: #374151;
+}
+
+.badge-secondary {
+  background: #e5e7eb;
+  color: #6b7280;
+}
+
